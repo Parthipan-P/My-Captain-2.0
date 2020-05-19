@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+float a,b,product;
+cout<<"Please enter the two numbers that to be multiplied:"<<endl;
+cin>>a>>b;
+product=a*b;
+cout<<"Product="<<product;
+return 0;
+}
