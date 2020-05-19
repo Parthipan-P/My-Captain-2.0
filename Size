@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int i;
+char c;
+float f;
+double d;
+cout<<"Enter a charecter,an integer,a floating type value and a double type value to know its sizes:"<<endl;
+cin>>c>>i>>f>>d;
+cout<<"Size of Charecter:"<<sizeof(c)<<" byte"<<endl;
+cout<<"Size of Integer:"<<sizeof(i)<<" bytes"<<endl;
+cout<<"Size of Float:"<<sizeof(f)<<" bytes"<<endl;
+cout<<"Size of Double:"<<sizeof(d)<<" bytes"<<endl;
+return 0;
+}
