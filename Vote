@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int a,age;
+cout<<"Please enter your age:"<<endl;
+cin>>age;
+a=18-age;
+if(age<18)
+cout<<"You are not eligible for voting. Please wait "<<a<<" more years for voting."<<endl;
+else if(age>=18&&age<=21)
+cout<<"You are a minor and you are eligible for voting"<<endl;
+else if(age>21)
+cout<<"You are eligible to vote"<<endl;
+else
+cout<<"INVALID"<<endl;
+return 0;
+}
